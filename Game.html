@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game on !!</title>
+    <link rel="stylesheet" href="Game.css">
+</head>
+<body>
+    <div class="counter">
+        
+    </div>
+    <div class="computer">
+        <p>Press "Start" to play!</p>
+        <p>Press "I Give Up" to reveal the number</p>
+        <label for="GuessNumber"> The secret number: </label>
+        <input type="password" id="GuessNumber" placeholder="Hidden" disabled>
+        <button id="StartButton"> Start </button>
+        <button id="giveUpButton"> I Give UP </button>
+    </div>
+
+    <div class="player">
+        <label for="UserNumber"> Enter your guess: </label>
+        <input type="text" id="UserNumber" placeholder="4 unique digits" pattern="^\d{4}$" maxlength="4" required>
+        <button type="submit" id="checkbutton">Check my numbers</button>
+    </div>
+
+    <div class="result">
+        <p id="feedback"></p>
+    </div>
+
+    <script src="Game.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Styling for the computer section */
+.computer {
+    background-color: #d9e4f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the input field and buttons */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+button:disabled {
+    background-color: #ccc;
+}
+
+/* Hover effect for buttons */
+button:hover:not(:disabled) {
+    background-color: #45a049;
+}
+
+/* Styling for the player section */
+.player {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styling for the result section */
+.result {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.result p {
+    margin: 10px 0;
+}
+
+/* Styling for labels */
+label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+/* Styling for the attempt counter */
+#attemptCount {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
